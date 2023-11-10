@@ -9,6 +9,13 @@ body {
     display: flex;
     flex-wrap: no-wrap;
 }
+
+@font-face {
+  font-family: 'Norse-Bold';
+  src: url('fonts/Norse-Bold.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
   .background-image {
     background: url('images/dalle-forest.png') no-repeat center center fixed;
     background-size: cover;
@@ -18,7 +25,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: space-between;
   }
   .sign-up-form {
     width: 450px;
@@ -71,3 +78,32 @@ body {
     flex-direction: column;
     width: 50%;
   }
+
+  p {
+    max-width: 60%;
+  }
+
+#logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  max-width: 100%;
+  max-height: 20%;
+  flex-grow: 1;
+  margin-bottom: auto;
+  margin-top: 20vh;
+}
+
+#logo-image {
+  max-width: 90%;
+  max-height: 90%;
+  object-fit: contain;
+}
+
+#logo-text {
+  font-family: 'Norse-Bold';
+  color: white;
+  font-size: 6em;
+}
