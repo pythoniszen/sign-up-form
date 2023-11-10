@@ -114,3 +114,47 @@ p {
     color: white;
     font-size: 6em;
 }
+
+/* Media query for mobile devices */
+@media only screen and (max-width: 768px) {
+  body {
+    font-size: 0.5em;
+  }
+
+  .background-image,
+  .sign-up-form {
+    width: 100%;
+    height: auto;
+  }
+
+  .sign-up-form {
+    width: auto;
+    max-width: none;
+  }
+
+  #submit-wrap,
+  .form-field input[type="submit"] {
+    width: auto;
+    margin: auto;
+  }
+
+  .form-field input[type="submit"] {
+    margin-left: 10vh;
+  }
+
+
+  #logo-image {
+    width: auto;
+    height: auto;
+    max-width: 5vh;
+    max-height: 5vh;
+  }
+
+  #logo-text {
+    font-size: 4em;
+  }
+
+  p {
+    max-width: 90%;
+  }
+}
