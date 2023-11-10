@@ -1,46 +1,46 @@
 body, html {
-    height: 100%;
-    margin: 0;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    box-sizing: border-box;
+  height: 100%;
+  margin: 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  box-sizing: border-box;
 }
 
 body {
-    display: flex;
-    flex-wrap: nowrap;
+  display: flex;
+  flex-wrap: nowrap;
 }
 
 @font-face {
-    font-family: 'Norse-Bold';
-    src: url('fonts/Norse-Bold.otf') format('opentype');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'Norse-Bold';
+  src: url('fonts/Norse-Bold.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
 }
 
 .background-image {
-    background: url('images/dalle-forest.png') no-repeat center center fixed;
-    background-size: cover;
-    position: relative;
-    height: 100%;
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
+  background: url('images/dalle-forest.png') no-repeat center center fixed;
+  background-size: cover;
+  position: relative;
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .sign-up-form {
-    width: 450px;
-    background: rgba(255, 255, 255, 0.9);
-    padding: 20px;
-    border-radius: 8px;
+  width: 450px;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border-radius: 8px;
 }
 .sign-up-form h2, .sign-up-form p {
-    text-align: center;
+  text-align: center;
 }
 
 .form-field {
-    margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 .form-field label {
@@ -141,7 +141,6 @@ p {
   .form-field input[type="submit"] {
     margin-left: 10vh;
   }
-
 
   #logo-image {
     width: auto;
